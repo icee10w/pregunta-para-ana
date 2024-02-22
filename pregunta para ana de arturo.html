@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregunta</title>
+</head>
+<body>
+
+<script>
+    // Función para mostrar la pregunta y opciones al cargar la página
+    window.onload = function () {
+        var respuesta = confirm("¿hola ana, ya no estas cansada? Lo resolvemos?");
+        
+        if (respuesta) {
+            alert("Excelente, ¡vamos a resolverlo!");
+        } else {
+            alert("Entendido, ¡hagámoslo en otro momento!");
+        }
+    };
+</script>
+
+</body>
+</html>
